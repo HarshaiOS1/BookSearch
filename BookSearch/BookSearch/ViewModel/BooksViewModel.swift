@@ -9,11 +9,22 @@ import Foundation
 
 class BooksViewModel: ObservableObject {
     private let googleBookServices: GoogleBookServices
-    @MainActor @Published var errorMessage = ""
+    private var networkMonitor: NetworkMonitor
     @MainActor @Published var booksList: BooksList?
+    @MainActor @Published var isConnected: Bool = true
+    @MainActor @Published var errorMessage = ""
     
-    init(googleBookServices: GoogleBookServices) {
+    
+    init(googleBookServices: GoogleBookServices, networkMonitor: NetworkMonitor = NetworkMonitor()) {
         self.googleBookServices = googleBookServices
+        self.networkMonitor = networkMonitor
+        observeNetworkStatus()
+    }
+    
+    private func observeNetworkStatus() {
+        networkMonitor.$isConnected
+            .receive(on: DispatchQueue.main)
+            .assign(to: &$isConnected)
     }
     
     func fetchBooks(searchString: String) async {
