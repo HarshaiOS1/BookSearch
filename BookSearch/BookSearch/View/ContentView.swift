@@ -11,23 +11,53 @@ import Lottie
 
 struct ContentView: View {
     @ObservedObject private var viewModel: BooksViewModel
+    @StateObject private var networkMonitor = NetworkMonitor()
     
     init(viewModel: BooksViewModel) {
         self.viewModel = viewModel
     }
     
-    @Environment(\.managedObjectContext) private var viewContext
-    
-    @FetchRequest(
-        sortDescriptors: [NSSortDescriptor(keyPath: \Item.timestamp, ascending: true)],
-        animation: .default)
-    private var items: FetchedResults<Item>
-    
     @State private var searchText = ""
+    @State private var showFavoritesOnly = false
+    @State private var refreshID:Int32 = 123
+    
+    var filteredBooks: [BookEntity] {
+        viewModel.books.filter {book in
+            (!showFavoritesOnly || book.isFavorite)
+        }
+    }
+    
+    //    List(documents, id: \.id) { item in
+    
     
     var body: some View {
         NavigationView {
-            if !viewModel.isConnected {
+            if networkMonitor.isConnected || viewModel.isLoadOffline {
+                List {
+                    Toggle(isOn: $showFavoritesOnly) {
+                        Text("Favorites only")
+                    }
+                    ForEach(filteredBooks.prefix(10)) { book in
+                        NavigationLink(destination: BookDetailView(viewModel: viewModel, book: book)) {
+                            BookRow(book: book)
+                        }
+                        .listRowSeparator(.hidden)
+                    }
+                    
+                    if filteredBooks.count > 10 {
+                        Section(header: Text("Previous search results")) {
+                            ForEach(viewModel.books) { book in
+                                NavigationLink {
+                                    BookDetailView(viewModel: viewModel, book: book)
+                                } label: {
+                                    BookRow(book: book)
+                                }
+                                .listRowSeparator(.hidden)
+                            }}
+                    }
+                }
+                .navigationBarTitle("Books", displayMode: .large)
+            } else if !networkMonitor.isConnected {
                 VStack(alignment: .center , content: {
                     LottieView(filename: "NoInternet", isPaused: false)
                     Text("No Internet Connection")
@@ -36,64 +66,28 @@ struct ContentView: View {
                         .padding()
                     
                     Button("Load Offline Data") {
-                        loadOfflineData()
+                        viewModel.isLoadOffline = true
+                        viewModel.fetchBooksFromCoreData()
                     }
                     .buttonStyle(.bordered)
                 })
                 Spacer()
                     .padding(.bottom, 150)
             }
-            List {
-                ForEach(items) { item in
-                    NavigationLink {
-                        Text("Item at \(item.timestamp!, formatter: itemFormatter)")
-                    } label: {
-                        Text(item.timestamp!, formatter: itemFormatter)
-                    }
-                }
-                .onDelete(perform: deleteItems)
-            }
         }
         .searchable(text: $searchText)
         .onSubmit(of: .search) {
-            //hit api here
-            print(searchText)
-        }
-        .navigationBarTitle("Books", displayMode: .large)
-    }
-    
-    private func loadOfflineData() {
-        print("adsfafdf")
-    }
-    
-    private func addItem() {
-        withAnimation {
-            let newItem = Item(context: viewContext)
-            newItem.timestamp = Date()
-            
-            do {
-                try viewContext.save()
-            } catch {
-                // Replace this implementation with code to handle the error appropriately.
-                // fatalError() causes the application to generate a crash log and terminate. You should not use this function in a shipping application, although it may be useful during development.
-                let nsError = error as NSError
-                fatalError("Unresolved error \(nsError), \(nsError.userInfo)")
+            if !networkMonitor.isConnected {
+                viewModel.fetchBooksFromCoreData()
+                viewModel.isLoadOffline = false
+            } else {
+                if searchText.count > 2 {
+                    viewModel.fetchAndSaveBooks(searchString: searchText)
+                }
             }
         }
-    }
-    
-    private func deleteItems(offsets: IndexSet) {
-        withAnimation {
-            offsets.map { items[$0] }.forEach(viewContext.delete)
-            
-            do {
-                try viewContext.save()
-            } catch {
-                // Replace this implementation with code to handle the error appropriately.
-                // fatalError() causes the application to generate a crash log and terminate. You should not use this function in a shipping application, although it may be useful during development.
-                let nsError = error as NSError
-                fatalError("Unresolved error \(nsError), \(nsError.userInfo)")
-            }
+        .onAppear() {
+            viewModel.fetchBooksFromCoreData()
         }
     }
 }
@@ -106,5 +100,6 @@ private let itemFormatter: DateFormatter = {
 }()
 
 #Preview {
-    ContentView(viewModel: BooksViewModel(googleBookServices: FetchBookAPI())).environment(\.managedObjectContext, PersistenceController.preview.container.viewContext)
+    ContentView(viewModel: BooksViewModel(googleBookServices: FetchBookAPI()))
+        .environment(\.managedObjectContext, CoreDataManager.preview.context)
 }

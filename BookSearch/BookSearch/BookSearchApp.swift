@@ -9,12 +9,12 @@ import SwiftUI
 
 @main
 struct BookSearchApp: App {
-    let persistenceController = PersistenceController.shared
+    let coredataManager = CoreDataManager.shared
 
     var body: some Scene {
         WindowGroup {
             ContentView(viewModel: BooksViewModel(googleBookServices: FetchBookAPI()))
-                .environment(\.managedObjectContext, persistenceController.container.viewContext)
+                .environment(\.managedObjectContext, coredataManager.persistentContainer.viewContext)
         }
     }
 }

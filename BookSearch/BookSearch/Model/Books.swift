@@ -7,17 +7,18 @@
 
 import Foundation
 
-// MARK: - Welcome
+// MARK: - BooksList
 struct BooksList: Decodable {
     let items: [Book]
 }
 
-struct Book: Identifiable, Decodable {
-    var id: String {
-        volumeInfo.title! + (volumeInfo.authors?.first)!
-    }
+struct Book: Codable, Identifiable {
+    var id: Int = Int.random(in: 0..<7)
     let volumeInfo: VolumeInfo
     var isFavorite: Bool = false
+    enum CodingKeys: String, CodingKey {
+        case volumeInfo
+    }
 }
 
 // MARK: - VolumeInfo

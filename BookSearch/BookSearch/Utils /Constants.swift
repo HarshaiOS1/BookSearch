@@ -13,5 +13,5 @@ struct Constants {
 }
 
 struct Services {
-    static let getBooks = "books/v1/volumes?q=%lu"
+    static let getBooks = "books/v1/volumes?q=%@"
 }
