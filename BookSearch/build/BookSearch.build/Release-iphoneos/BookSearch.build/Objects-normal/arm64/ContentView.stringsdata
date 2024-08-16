@@ -1,0 +1,36 @@
+{
+  "source": "/Users/Harsha.Krishnappa/Documents/GitHub/BookSearch/BookSearch/BookSearch/View/ContentView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Search Online for new books.."
+      },
+      {
+        "comment": "",
+        "key": "Books"
+      },
+      {
+        "comment": "",
+        "key": "Previous search results"
+      },
+      {
+        "comment": "",
+        "key": "Show Only Favorite books"
+      },
+      {
+        "comment": "",
+        "key": "Filter"
+      },
+      {
+        "comment": "",
+        "key": "No Internet Connection"
+      },
+      {
+        "comment": "",
+        "key": "Load Offline Data"
+      }
+    ]
+  },
+  "version": 1
+}

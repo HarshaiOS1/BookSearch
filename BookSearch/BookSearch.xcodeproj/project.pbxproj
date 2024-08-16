@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		1D473B162C6E855A009AC36A /* BooksModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1D473B142C6E855A009AC36A /* BooksModel.xcdatamodeld */; };
+		1D473B1B2C6EB75B009AC36A /* FilterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D473B1A2C6EB75B009AC36A /* FilterView.swift */; };
 		1D74D8B02C6DF42600B66D21 /* BookRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D74D8AF2C6DF42600B66D21 /* BookRow.swift */; };
 		1D74D8B22C6DF5C800B66D21 /* ImageCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D74D8B12C6DF5C800B66D21 /* ImageCache.swift */; };
 		1D74D8B42C6DF63E00B66D21 /* CustomImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D74D8B32C6DF63E00B66D21 /* CustomImageView.swift */; };
@@ -49,6 +50,7 @@
 
 /* Begin PBXFileReference section */
 		1D473B152C6E855A009AC36A /* BooksModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BooksModel.xcdatamodel; sourceTree = "<group>"; };
+		1D473B1A2C6EB75B009AC36A /* FilterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterView.swift; sourceTree = "<group>"; };
 		1D74D8AF2C6DF42600B66D21 /* BookRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookRow.swift; sourceTree = "<group>"; };
 		1D74D8B12C6DF5C800B66D21 /* ImageCache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCache.swift; sourceTree = "<group>"; };
 		1D74D8B32C6DF63E00B66D21 /* CustomImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomImageView.swift; sourceTree = "<group>"; };
@@ -103,6 +105,8 @@
 		1D473B172C6E9A1C009AC36A /* CustomViews */ = {
 			isa = PBXGroup;
 			children = (
+				1D7D517D2C6E55E0007A1339 /* FavoriteButton.swift */,
+				1DF7D24B2C6D237B007E18E3 /* LottieView.swift */,
 				1D74D8B32C6DF63E00B66D21 /* CustomImageView.swift */,
 			);
 			path = CustomViews;
@@ -189,10 +193,9 @@
 			children = (
 				1D473B172C6E9A1C009AC36A /* CustomViews */,
 				1DF7D20B2C6CFDC7007E18E3 /* ContentView.swift */,
+				1D473B1A2C6EB75B009AC36A /* FilterView.swift */,
 				1D74D8AF2C6DF42600B66D21 /* BookRow.swift */,
 				1D7D517B2C6E52D7007A1339 /* BookDetailView.swift */,
-				1DF7D24B2C6D237B007E18E3 /* LottieView.swift */,
-				1D7D517D2C6E55E0007A1339 /* FavoriteButton.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -376,6 +379,7 @@
 				1DF7D2592C6D49C9007E18E3 /* CoreDataManager.swift in Sources */,
 				1DF7D20C2C6CFDC7007E18E3 /* ContentView.swift in Sources */,
 				1D7D517C2C6E52D7007A1339 /* BookDetailView.swift in Sources */,
+				1D473B1B2C6EB75B009AC36A /* FilterView.swift in Sources */,
 				1DF7D20A2C6CFDC7007E18E3 /* BookSearchApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

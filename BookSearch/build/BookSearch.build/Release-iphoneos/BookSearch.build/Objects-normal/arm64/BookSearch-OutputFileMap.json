@@ -1,0 +1,100 @@
+{
+  "" : {
+    "const-values" : "/Users/Harsha.Krishnappa/Documents/GitHub/BookSearch/BookSearch/build/BookSearch.build/Release-iphoneos/BookSearch.build/Objects-normal/arm64/BookSearch-master.swiftconstvalues",
+    "dependencies" : "/Users/Harsha.Krishnappa/Documents/GitHub/BookSearch/BookSearch/build/BookSearch.build/Release-iphoneos/BookSearch.build/Objects-normal/arm64/BookSearch-master.d",
+    "diagnostics" : "/Users/Harsha.Krishnappa/Documents/GitHub/BookSearch/BookSearch/build/BookSearch.build/Release-iphoneos/BookSearch.build/Objects-normal/arm64/BookSearch-master.dia",
+    "emit-module-dependencies" : "/Users/Harsha.Krishnappa/Documents/GitHub/BookSearch/BookSearch/build/BookSearch.build/Release-iphoneos/BookSearch.build/Objects-normal/arm64/BookSearch-master-emit-module.d",
+    "emit-module-diagnostics" : "/Users/Harsha.Krishnappa/Documents/GitHub/BookSearch/BookSearch/build/BookSearch.build/Release-iphoneos/BookSearch.build/Objects-normal/arm64/BookSearch-master-emit-module.dia",
+    "swift-dependencies" : "/Users/Harsha.Krishnappa/Documents/GitHub/BookSearch/BookSearch/build/BookSearch.build/Release-iphoneos/BookSearch.build/Objects-normal/arm64/BookSearch-master.swiftdeps"
+  },
+  "/Users/Harsha.Krishnappa/Documents/GitHub/BookSearch/BookSearch/BookSearch/BookSearchApp.swift" : {
+    "index-unit-output-path" : "/BookSearch.build/Release-iphoneos/BookSearch.build/Objects-normal/arm64/BookSearchApp.o",
+    "llvm-bc" : "/Users/Harsha.Krishnappa/Documents/GitHub/BookSearch/BookSearch/build/BookSearch.build/Release-iphoneos/BookSearch.build/Objects-normal/arm64/BookSearchApp.bc",
+    "object" : "/Users/Harsha.Krishnappa/Documents/GitHub/BookSearch/BookSearch/build/BookSearch.build/Release-iphoneos/BookSearch.build/Objects-normal/arm64/BookSearchApp.o"
+  },
+  "/Users/Harsha.Krishnappa/Documents/GitHub/BookSearch/BookSearch/BookSearch/Model/Books.swift" : {
+    "index-unit-output-path" : "/BookSearch.build/Release-iphoneos/BookSearch.build/Objects-normal/arm64/Books.o",
+    "llvm-bc" : "/Users/Harsha.Krishnappa/Documents/GitHub/BookSearch/BookSearch/build/BookSearch.build/Release-iphoneos/BookSearch.build/Objects-normal/arm64/Books.bc",
+    "object" : "/Users/Harsha.Krishnappa/Documents/GitHub/BookSearch/BookSearch/build/BookSearch.build/Release-iphoneos/BookSearch.build/Objects-normal/arm64/Books.o"
+  },
+  "/Users/Harsha.Krishnappa/Documents/GitHub/BookSearch/BookSearch/BookSearch/Utils /Constants.swift" : {
+    "index-unit-output-path" : "/BookSearch.build/Release-iphoneos/BookSearch.build/Objects-normal/arm64/Constants.o",
+    "llvm-bc" : "/Users/Harsha.Krishnappa/Documents/GitHub/BookSearch/BookSearch/build/BookSearch.build/Release-iphoneos/BookSearch.build/Objects-normal/arm64/Constants.bc",
+    "object" : "/Users/Harsha.Krishnappa/Documents/GitHub/BookSearch/BookSearch/build/BookSearch.build/Release-iphoneos/BookSearch.build/Objects-normal/arm64/Constants.o"
+  },
+  "/Users/Harsha.Krishnappa/Documents/GitHub/BookSearch/BookSearch/BookSearch/Utils /Coredata/CoreDataManager.swift" : {
+    "index-unit-output-path" : "/BookSearch.build/Release-iphoneos/BookSearch.build/Objects-normal/arm64/CoreDataManager.o",
+    "llvm-bc" : "/Users/Harsha.Krishnappa/Documents/GitHub/BookSearch/BookSearch/build/BookSearch.build/Release-iphoneos/BookSearch.build/Objects-normal/arm64/CoreDataManager.bc",
+    "object" : "/Users/Harsha.Krishnappa/Documents/GitHub/BookSearch/BookSearch/build/BookSearch.build/Release-iphoneos/BookSearch.build/Objects-normal/arm64/CoreDataManager.o"
+  },
+  "/Users/Harsha.Krishnappa/Documents/GitHub/BookSearch/BookSearch/BookSearch/Utils /ImageCache.swift" : {
+    "index-unit-output-path" : "/BookSearch.build/Release-iphoneos/BookSearch.build/Objects-normal/arm64/ImageCache.o",
+    "llvm-bc" : "/Users/Harsha.Krishnappa/Documents/GitHub/BookSearch/BookSearch/build/BookSearch.build/Release-iphoneos/BookSearch.build/Objects-normal/arm64/ImageCache.bc",
+    "object" : "/Users/Harsha.Krishnappa/Documents/GitHub/BookSearch/BookSearch/build/BookSearch.build/Release-iphoneos/BookSearch.build/Objects-normal/arm64/ImageCache.o"
+  },
+  "/Users/Harsha.Krishnappa/Documents/GitHub/BookSearch/BookSearch/BookSearch/Utils /NetworkMonitor.swift" : {
+    "index-unit-output-path" : "/BookSearch.build/Release-iphoneos/BookSearch.build/Objects-normal/arm64/NetworkMonitor.o",
+    "llvm-bc" : "/Users/Harsha.Krishnappa/Documents/GitHub/BookSearch/BookSearch/build/BookSearch.build/Release-iphoneos/BookSearch.build/Objects-normal/arm64/NetworkMonitor.bc",
+    "object" : "/Users/Harsha.Krishnappa/Documents/GitHub/BookSearch/BookSearch/build/BookSearch.build/Release-iphoneos/BookSearch.build/Objects-normal/arm64/NetworkMonitor.o"
+  },
+  "/Users/Harsha.Krishnappa/Documents/GitHub/BookSearch/BookSearch/BookSearch/View/BookDetailView.swift" : {
+    "index-unit-output-path" : "/BookSearch.build/Release-iphoneos/BookSearch.build/Objects-normal/arm64/BookDetailView.o",
+    "llvm-bc" : "/Users/Harsha.Krishnappa/Documents/GitHub/BookSearch/BookSearch/build/BookSearch.build/Release-iphoneos/BookSearch.build/Objects-normal/arm64/BookDetailView.bc",
+    "object" : "/Users/Harsha.Krishnappa/Documents/GitHub/BookSearch/BookSearch/build/BookSearch.build/Release-iphoneos/BookSearch.build/Objects-normal/arm64/BookDetailView.o"
+  },
+  "/Users/Harsha.Krishnappa/Documents/GitHub/BookSearch/BookSearch/BookSearch/View/BookRow.swift" : {
+    "index-unit-output-path" : "/BookSearch.build/Release-iphoneos/BookSearch.build/Objects-normal/arm64/BookRow.o",
+    "llvm-bc" : "/Users/Harsha.Krishnappa/Documents/GitHub/BookSearch/BookSearch/build/BookSearch.build/Release-iphoneos/BookSearch.build/Objects-normal/arm64/BookRow.bc",
+    "object" : "/Users/Harsha.Krishnappa/Documents/GitHub/BookSearch/BookSearch/build/BookSearch.build/Release-iphoneos/BookSearch.build/Objects-normal/arm64/BookRow.o"
+  },
+  "/Users/Harsha.Krishnappa/Documents/GitHub/BookSearch/BookSearch/BookSearch/View/ContentView.swift" : {
+    "index-unit-output-path" : "/BookSearch.build/Release-iphoneos/BookSearch.build/Objects-normal/arm64/ContentView.o",
+    "llvm-bc" : "/Users/Harsha.Krishnappa/Documents/GitHub/BookSearch/BookSearch/build/BookSearch.build/Release-iphoneos/BookSearch.build/Objects-normal/arm64/ContentView.bc",
+    "object" : "/Users/Harsha.Krishnappa/Documents/GitHub/BookSearch/BookSearch/build/BookSearch.build/Release-iphoneos/BookSearch.build/Objects-normal/arm64/ContentView.o"
+  },
+  "/Users/Harsha.Krishnappa/Documents/GitHub/BookSearch/BookSearch/BookSearch/View/CustomViews/CustomImageView.swift" : {
+    "index-unit-output-path" : "/BookSearch.build/Release-iphoneos/BookSearch.build/Objects-normal/arm64/CustomImageView.o",
+    "llvm-bc" : "/Users/Harsha.Krishnappa/Documents/GitHub/BookSearch/BookSearch/build/BookSearch.build/Release-iphoneos/BookSearch.build/Objects-normal/arm64/CustomImageView.bc",
+    "object" : "/Users/Harsha.Krishnappa/Documents/GitHub/BookSearch/BookSearch/build/BookSearch.build/Release-iphoneos/BookSearch.build/Objects-normal/arm64/CustomImageView.o"
+  },
+  "/Users/Harsha.Krishnappa/Documents/GitHub/BookSearch/BookSearch/BookSearch/View/CustomViews/FavoriteButton.swift" : {
+    "index-unit-output-path" : "/BookSearch.build/Release-iphoneos/BookSearch.build/Objects-normal/arm64/FavoriteButton.o",
+    "llvm-bc" : "/Users/Harsha.Krishnappa/Documents/GitHub/BookSearch/BookSearch/build/BookSearch.build/Release-iphoneos/BookSearch.build/Objects-normal/arm64/FavoriteButton.bc",
+    "object" : "/Users/Harsha.Krishnappa/Documents/GitHub/BookSearch/BookSearch/build/BookSearch.build/Release-iphoneos/BookSearch.build/Objects-normal/arm64/FavoriteButton.o"
+  },
+  "/Users/Harsha.Krishnappa/Documents/GitHub/BookSearch/BookSearch/BookSearch/View/CustomViews/LottieView.swift" : {
+    "index-unit-output-path" : "/BookSearch.build/Release-iphoneos/BookSearch.build/Objects-normal/arm64/LottieView.o",
+    "llvm-bc" : "/Users/Harsha.Krishnappa/Documents/GitHub/BookSearch/BookSearch/build/BookSearch.build/Release-iphoneos/BookSearch.build/Objects-normal/arm64/LottieView.bc",
+    "object" : "/Users/Harsha.Krishnappa/Documents/GitHub/BookSearch/BookSearch/build/BookSearch.build/Release-iphoneos/BookSearch.build/Objects-normal/arm64/LottieView.o"
+  },
+  "/Users/Harsha.Krishnappa/Documents/GitHub/BookSearch/BookSearch/BookSearch/View/FilterView.swift" : {
+    "index-unit-output-path" : "/BookSearch.build/Release-iphoneos/BookSearch.build/Objects-normal/arm64/FilterView.o",
+    "llvm-bc" : "/Users/Harsha.Krishnappa/Documents/GitHub/BookSearch/BookSearch/build/BookSearch.build/Release-iphoneos/BookSearch.build/Objects-normal/arm64/FilterView.bc",
+    "object" : "/Users/Harsha.Krishnappa/Documents/GitHub/BookSearch/BookSearch/build/BookSearch.build/Release-iphoneos/BookSearch.build/Objects-normal/arm64/FilterView.o"
+  },
+  "/Users/Harsha.Krishnappa/Documents/GitHub/BookSearch/BookSearch/BookSearch/ViewModel/BooksViewModel.swift" : {
+    "index-unit-output-path" : "/BookSearch.build/Release-iphoneos/BookSearch.build/Objects-normal/arm64/BooksViewModel.o",
+    "llvm-bc" : "/Users/Harsha.Krishnappa/Documents/GitHub/BookSearch/BookSearch/build/BookSearch.build/Release-iphoneos/BookSearch.build/Objects-normal/arm64/BooksViewModel.bc",
+    "object" : "/Users/Harsha.Krishnappa/Documents/GitHub/BookSearch/BookSearch/build/BookSearch.build/Release-iphoneos/BookSearch.build/Objects-normal/arm64/BooksViewModel.o"
+  },
+  "/Users/Harsha.Krishnappa/Documents/GitHub/BookSearch/BookSearch/build/BookSearch.build/Release-iphoneos/BookSearch.build/DerivedSources/CoreDataGenerated/BooksModel/BookEntity+CoreDataClass.swift" : {
+    "index-unit-output-path" : "/BookSearch.build/Release-iphoneos/BookSearch.build/Objects-normal/arm64/BookEntity+CoreDataClass.o",
+    "llvm-bc" : "/Users/Harsha.Krishnappa/Documents/GitHub/BookSearch/BookSearch/build/BookSearch.build/Release-iphoneos/BookSearch.build/Objects-normal/arm64/BookEntity+CoreDataClass.bc",
+    "object" : "/Users/Harsha.Krishnappa/Documents/GitHub/BookSearch/BookSearch/build/BookSearch.build/Release-iphoneos/BookSearch.build/Objects-normal/arm64/BookEntity+CoreDataClass.o"
+  },
+  "/Users/Harsha.Krishnappa/Documents/GitHub/BookSearch/BookSearch/build/BookSearch.build/Release-iphoneos/BookSearch.build/DerivedSources/CoreDataGenerated/BooksModel/BookEntity+CoreDataProperties.swift" : {
+    "index-unit-output-path" : "/BookSearch.build/Release-iphoneos/BookSearch.build/Objects-normal/arm64/BookEntity+CoreDataProperties.o",
+    "llvm-bc" : "/Users/Harsha.Krishnappa/Documents/GitHub/BookSearch/BookSearch/build/BookSearch.build/Release-iphoneos/BookSearch.build/Objects-normal/arm64/BookEntity+CoreDataProperties.bc",
+    "object" : "/Users/Harsha.Krishnappa/Documents/GitHub/BookSearch/BookSearch/build/BookSearch.build/Release-iphoneos/BookSearch.build/Objects-normal/arm64/BookEntity+CoreDataProperties.o"
+  },
+  "/Users/Harsha.Krishnappa/Documents/GitHub/BookSearch/BookSearch/build/BookSearch.build/Release-iphoneos/BookSearch.build/DerivedSources/CoreDataGenerated/BooksModel/BooksModel+CoreDataModel.swift" : {
+    "index-unit-output-path" : "/BookSearch.build/Release-iphoneos/BookSearch.build/Objects-normal/arm64/BooksModel+CoreDataModel.o",
+    "llvm-bc" : "/Users/Harsha.Krishnappa/Documents/GitHub/BookSearch/BookSearch/build/BookSearch.build/Release-iphoneos/BookSearch.build/Objects-normal/arm64/BooksModel+CoreDataModel.bc",
+    "object" : "/Users/Harsha.Krishnappa/Documents/GitHub/BookSearch/BookSearch/build/BookSearch.build/Release-iphoneos/BookSearch.build/Objects-normal/arm64/BooksModel+CoreDataModel.o"
+  },
+  "/Users/Harsha.Krishnappa/Documents/GitHub/BookSearch/BookSearch/build/BookSearch.build/Release-iphoneos/BookSearch.build/DerivedSources/GeneratedAssetSymbols.swift" : {
+    "index-unit-output-path" : "/BookSearch.build/Release-iphoneos/BookSearch.build/Objects-normal/arm64/GeneratedAssetSymbols.o",
+    "llvm-bc" : "/Users/Harsha.Krishnappa/Documents/GitHub/BookSearch/BookSearch/build/BookSearch.build/Release-iphoneos/BookSearch.build/Objects-normal/arm64/GeneratedAssetSymbols.bc",
+    "object" : "/Users/Harsha.Krishnappa/Documents/GitHub/BookSearch/BookSearch/build/BookSearch.build/Release-iphoneos/BookSearch.build/Objects-normal/arm64/GeneratedAssetSymbols.o"
+  }
+}

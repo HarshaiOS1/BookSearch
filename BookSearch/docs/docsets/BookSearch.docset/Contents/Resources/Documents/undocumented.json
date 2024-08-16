@@ -1,0 +1,432 @@
+{
+  "warnings": [
+    {
+      "file": "/Users/Harsha.Krishnappa/Documents/GitHub/BookSearch/BookSearch/BookSearch/BookSearchApp.swift",
+      "line": 11,
+      "symbol": "BookSearchApp",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Harsha.Krishnappa/Documents/GitHub/BookSearch/BookSearch/BookSearch/BookSearchApp.swift",
+      "line": 12,
+      "symbol": "BookSearchApp.coredataManager",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Harsha.Krishnappa/Documents/GitHub/BookSearch/BookSearch/BookSearch/Model/Books.swift",
+      "line": 11,
+      "symbol": "BooksList",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Harsha.Krishnappa/Documents/GitHub/BookSearch/BookSearch/BookSearch/Model/Books.swift",
+      "line": 12,
+      "symbol": "BooksList.items",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Harsha.Krishnappa/Documents/GitHub/BookSearch/BookSearch/BookSearch/Model/Books.swift",
+      "line": 15,
+      "symbol": "Book",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Harsha.Krishnappa/Documents/GitHub/BookSearch/BookSearch/BookSearch/Model/Books.swift",
+      "line": 17,
+      "symbol": "Book.volumeInfo",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Harsha.Krishnappa/Documents/GitHub/BookSearch/BookSearch/BookSearch/Model/Books.swift",
+      "line": 18,
+      "symbol": "Book.isFavorite",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Harsha.Krishnappa/Documents/GitHub/BookSearch/BookSearch/BookSearch/Model/Books.swift",
+      "line": 19,
+      "symbol": "Book.CodingKeys",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Harsha.Krishnappa/Documents/GitHub/BookSearch/BookSearch/BookSearch/Model/Books.swift",
+      "line": 20,
+      "symbol": "Book.CodingKeys.volumeInfo",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Harsha.Krishnappa/Documents/GitHub/BookSearch/BookSearch/BookSearch/Model/Books.swift",
+      "line": 25,
+      "symbol": "VolumeInfo",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Harsha.Krishnappa/Documents/GitHub/BookSearch/BookSearch/BookSearch/Model/Books.swift",
+      "line": 26,
+      "symbol": "VolumeInfo.title",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Harsha.Krishnappa/Documents/GitHub/BookSearch/BookSearch/BookSearch/Model/Books.swift",
+      "line": 27,
+      "symbol": "VolumeInfo.authors",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Harsha.Krishnappa/Documents/GitHub/BookSearch/BookSearch/BookSearch/Model/Books.swift",
+      "line": 28,
+      "symbol": "VolumeInfo.description",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Harsha.Krishnappa/Documents/GitHub/BookSearch/BookSearch/BookSearch/Model/Books.swift",
+      "line": 28,
+      "symbol": "VolumeInfo.publishedDate",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Harsha.Krishnappa/Documents/GitHub/BookSearch/BookSearch/BookSearch/Model/Books.swift",
+      "line": 28,
+      "symbol": "VolumeInfo.publisher",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Harsha.Krishnappa/Documents/GitHub/BookSearch/BookSearch/BookSearch/Model/Books.swift",
+      "line": 29,
+      "symbol": "VolumeInfo.imageLinks",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Harsha.Krishnappa/Documents/GitHub/BookSearch/BookSearch/BookSearch/Model/Books.swift",
+      "line": 33,
+      "symbol": "ImageLinks",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Harsha.Krishnappa/Documents/GitHub/BookSearch/BookSearch/BookSearch/Model/Books.swift",
+      "line": 34,
+      "symbol": "ImageLinks.smallThumbnail",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Harsha.Krishnappa/Documents/GitHub/BookSearch/BookSearch/BookSearch/Model/Books.swift",
+      "line": 34,
+      "symbol": "ImageLinks.thumbnail",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Harsha.Krishnappa/Documents/GitHub/BookSearch/BookSearch/BookSearch/Utils /ImageCache.swift",
+      "line": 15,
+      "symbol": "ImageCache.shared",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Harsha.Krishnappa/Documents/GitHub/BookSearch/BookSearch/BookSearch/Utils /ImageCache.swift",
+      "line": 17,
+      "symbol": "ImageCache.cache",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Harsha.Krishnappa/Documents/GitHub/BookSearch/BookSearch/BookSearch/Utils /ImageCache.swift",
+      "line": 38,
+      "symbol": "AsyncImageLoader.image",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Harsha.Krishnappa/Documents/GitHub/BookSearch/BookSearch/BookSearch/Utils /ImageCache.swift",
+      "line": 39,
+      "symbol": "AsyncImageLoader.cancellable",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Harsha.Krishnappa/Documents/GitHub/BookSearch/BookSearch/BookSearch/Utils /NetworkMonitor.swift",
+      "line": 19,
+      "symbol": "NetworkMonitor.monitor",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Harsha.Krishnappa/Documents/GitHub/BookSearch/BookSearch/BookSearch/Utils /NetworkMonitor.swift",
+      "line": 20,
+      "symbol": "NetworkMonitor.cancellable",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Harsha.Krishnappa/Documents/GitHub/BookSearch/BookSearch/BookSearch/Utils /NetworkMonitor.swift",
+      "line": 21,
+      "symbol": "NetworkMonitor.isConnected",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Harsha.Krishnappa/Documents/GitHub/BookSearch/BookSearch/BookSearch/View/BookDetailView.swift",
+      "line": 10,
+      "symbol": "BookDetailView",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Harsha.Krishnappa/Documents/GitHub/BookSearch/BookSearch/BookSearch/View/BookDetailView.swift",
+      "line": 11,
+      "symbol": "BookDetailView.viewModel",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Harsha.Krishnappa/Documents/GitHub/BookSearch/BookSearch/BookSearch/View/BookDetailView.swift",
+      "line": 12,
+      "symbol": "BookDetailView.book",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Harsha.Krishnappa/Documents/GitHub/BookSearch/BookSearch/BookSearch/View/BookDetailView.swift",
+      "line": 44,
+      "symbol": "BookDetailView.toggleFavorite()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Harsha.Krishnappa/Documents/GitHub/BookSearch/BookSearch/BookSearch/View/ContentView.swift",
+      "line": 17,
+      "symbol": "ContentView.viewModel",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Harsha.Krishnappa/Documents/GitHub/BookSearch/BookSearch/BookSearch/View/ContentView.swift",
+      "line": 18,
+      "symbol": "ContentView.networkMonitor",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Harsha.Krishnappa/Documents/GitHub/BookSearch/BookSearch/BookSearch/View/ContentView.swift",
+      "line": 20,
+      "symbol": "ContentView.init(viewModel:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Harsha.Krishnappa/Documents/GitHub/BookSearch/BookSearch/BookSearch/View/CustomViews/CustomImageView.swift",
+      "line": 19,
+      "symbol": "CustomImageView.loader",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Harsha.Krishnappa/Documents/GitHub/BookSearch/BookSearch/BookSearch/View/CustomViews/LottieView.swift",
+      "line": 61,
+      "symbol": "LottieView.Coordinator.parent",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Harsha.Krishnappa/Documents/GitHub/BookSearch/BookSearch/BookSearch/View/CustomViews/LottieView.swift",
+      "line": 63,
+      "symbol": "LottieView.Coordinator.init(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Harsha.Krishnappa/Documents/GitHub/BookSearch/BookSearch/BookSearch/ViewModel/BooksViewModel.swift",
+      "line": 21,
+      "symbol": "BooksViewModel.googleBookServices",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Harsha.Krishnappa/Documents/GitHub/BookSearch/BookSearch/BookSearch/ViewModel/BooksViewModel.swift",
+      "line": 22,
+      "symbol": "BooksViewModel.context",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Harsha.Krishnappa/Documents/GitHub/BookSearch/BookSearch/BookSearch/ViewModel/BooksViewModel.swift",
+      "line": 23,
+      "symbol": "BooksViewModel.cancellables",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Harsha.Krishnappa/Documents/GitHub/BookSearch/BookSearch/BookSearch/ViewModel/BooksViewModel.swift",
+      "line": 159,
+      "symbol": "FetchBookAPI",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Harsha.Krishnappa/Library/Developer/Xcode/DerivedData/BookSearch-brnrlmgfcsivstazfgpjuwbhguia/Build/Intermediates.noindex/BookSearch.build/Debug-iphoneos/BookSearch.build/DerivedSources/CoreDataGenerated/BooksModel/BookEntity+CoreDataClass.swift",
+      "line": 14,
+      "symbol": "BookEntity",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Harsha.Krishnappa/Library/Developer/Xcode/DerivedData/BookSearch-brnrlmgfcsivstazfgpjuwbhguia/Build/Intermediates.noindex/BookSearch.build/Debug-iphoneos/BookSearch.build/DerivedSources/CoreDataGenerated/BooksModel/BookEntity+CoreDataClass.swift",
+      "line": 14,
+      "symbol": "BookEntity",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Harsha.Krishnappa/Library/Developer/Xcode/DerivedData/BookSearch-brnrlmgfcsivstazfgpjuwbhguia/Build/Intermediates.noindex/BookSearch.build/Debug-iphoneos/BookSearch.build/DerivedSources/CoreDataGenerated/BooksModel/BookEntity+CoreDataClass.swift",
+      "line": 32,
+      "symbol": "BookEntity",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Harsha.Krishnappa/Library/Developer/Xcode/DerivedData/BookSearch-brnrlmgfcsivstazfgpjuwbhguia/Build/Intermediates.noindex/BookSearch.build/Debug-iphoneos/BookSearch.build/DerivedSources/CoreDataGenerated/BooksModel/BookEntity+CoreDataProperties.swift",
+      "line": 16,
+      "symbol": "BookEntity.fetchRequest()",
+      "symbol_kind": "source.lang.swift.decl.function.method.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Harsha.Krishnappa/Library/Developer/Xcode/DerivedData/BookSearch-brnrlmgfcsivstazfgpjuwbhguia/Build/Intermediates.noindex/BookSearch.build/Debug-iphoneos/BookSearch.build/DerivedSources/CoreDataGenerated/BooksModel/BookEntity+CoreDataProperties.swift",
+      "line": 20,
+      "symbol": "BookEntity.authors",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Harsha.Krishnappa/Library/Developer/Xcode/DerivedData/BookSearch-brnrlmgfcsivstazfgpjuwbhguia/Build/Intermediates.noindex/BookSearch.build/Debug-iphoneos/BookSearch.build/DerivedSources/CoreDataGenerated/BooksModel/BookEntity+CoreDataProperties.swift",
+      "line": 21,
+      "symbol": "BookEntity.bookDescription",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Harsha.Krishnappa/Library/Developer/Xcode/DerivedData/BookSearch-brnrlmgfcsivstazfgpjuwbhguia/Build/Intermediates.noindex/BookSearch.build/Debug-iphoneos/BookSearch.build/DerivedSources/CoreDataGenerated/BooksModel/BookEntity+CoreDataProperties.swift",
+      "line": 22,
+      "symbol": "BookEntity.isFavorite",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Harsha.Krishnappa/Library/Developer/Xcode/DerivedData/BookSearch-brnrlmgfcsivstazfgpjuwbhguia/Build/Intermediates.noindex/BookSearch.build/Debug-iphoneos/BookSearch.build/DerivedSources/CoreDataGenerated/BooksModel/BookEntity+CoreDataProperties.swift",
+      "line": 23,
+      "symbol": "BookEntity.publishedDate",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Harsha.Krishnappa/Library/Developer/Xcode/DerivedData/BookSearch-brnrlmgfcsivstazfgpjuwbhguia/Build/Intermediates.noindex/BookSearch.build/Debug-iphoneos/BookSearch.build/DerivedSources/CoreDataGenerated/BooksModel/BookEntity+CoreDataProperties.swift",
+      "line": 24,
+      "symbol": "BookEntity.publisher",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Harsha.Krishnappa/Library/Developer/Xcode/DerivedData/BookSearch-brnrlmgfcsivstazfgpjuwbhguia/Build/Intermediates.noindex/BookSearch.build/Debug-iphoneos/BookSearch.build/DerivedSources/CoreDataGenerated/BooksModel/BookEntity+CoreDataProperties.swift",
+      "line": 25,
+      "symbol": "BookEntity.thumbnail",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Harsha.Krishnappa/Library/Developer/Xcode/DerivedData/BookSearch-brnrlmgfcsivstazfgpjuwbhguia/Build/Intermediates.noindex/BookSearch.build/Debug-iphoneos/BookSearch.build/DerivedSources/CoreDataGenerated/BooksModel/BookEntity+CoreDataProperties.swift",
+      "line": 26,
+      "symbol": "BookEntity.timestamp",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Harsha.Krishnappa/Library/Developer/Xcode/DerivedData/BookSearch-brnrlmgfcsivstazfgpjuwbhguia/Build/Intermediates.noindex/BookSearch.build/Debug-iphoneos/BookSearch.build/DerivedSources/CoreDataGenerated/BooksModel/BookEntity+CoreDataProperties.swift",
+      "line": 27,
+      "symbol": "BookEntity.title",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Harsha.Krishnappa/Library/Developer/Xcode/DerivedData/BookSearch-brnrlmgfcsivstazfgpjuwbhguia/Build/Intermediates.noindex/BookSearch.build/Debug-iphoneos/BookSearch.build/DerivedSources/CoreDataGenerated/BooksModel/BookEntity+CoreDataProperties.swift",
+      "line": 28,
+      "symbol": "BookEntity.uniqueId",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Harsha.Krishnappa/Library/Developer/Xcode/DerivedData/BookSearch-brnrlmgfcsivstazfgpjuwbhguia/Build/Intermediates.noindex/BookSearch.build/Debug-iphoneos/BookSearch.build/DerivedSources/GeneratedAssetSymbols.swift",
+      "line": 18,
+      "symbol": "ResourceBundleClass",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Harsha.Krishnappa/Library/Developer/Xcode/DerivedData/BookSearch-brnrlmgfcsivstazfgpjuwbhguia/Build/Intermediates.noindex/BookSearch.build/Debug-iphoneos/BookSearch.build/DerivedSources/GeneratedAssetSymbols.swift",
+      "line": 19,
+      "symbol": "resourceBundle",
+      "symbol_kind": "source.lang.swift.decl.var.global",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Harsha.Krishnappa/Library/Developer/Xcode/DerivedData/BookSearch-brnrlmgfcsivstazfgpjuwbhguia/Build/Intermediates.noindex/BookSearch.build/Debug-iphoneos/BookSearch.build/DerivedSources/GeneratedAssetSymbols.swift",
+      "line": 90,
+      "symbol": "DeveloperToolsSupport.ColorResource.init(thinnableName:bundle:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Harsha.Krishnappa/Library/Developer/Xcode/DerivedData/BookSearch-brnrlmgfcsivstazfgpjuwbhguia/Build/Intermediates.noindex/BookSearch.build/Debug-iphoneos/BookSearch.build/DerivedSources/GeneratedAssetSymbols.swift",
+      "line": 115,
+      "symbol": "UIKit.UIColor.init(thinnableResource:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Harsha.Krishnappa/Library/Developer/Xcode/DerivedData/BookSearch-brnrlmgfcsivstazfgpjuwbhguia/Build/Intermediates.noindex/BookSearch.build/Debug-iphoneos/BookSearch.build/DerivedSources/GeneratedAssetSymbols.swift",
+      "line": 134,
+      "symbol": "SwiftUI.Color.init(thinnableResource:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Harsha.Krishnappa/Library/Developer/Xcode/DerivedData/BookSearch-brnrlmgfcsivstazfgpjuwbhguia/Build/Intermediates.noindex/BookSearch.build/Debug-iphoneos/BookSearch.build/DerivedSources/GeneratedAssetSymbols.swift",
+      "line": 147,
+      "symbol": "SwiftUI.ShapeStyle.init(thinnableResource:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Harsha.Krishnappa/Library/Developer/Xcode/DerivedData/BookSearch-brnrlmgfcsivstazfgpjuwbhguia/Build/Intermediates.noindex/BookSearch.build/Debug-iphoneos/BookSearch.build/DerivedSources/GeneratedAssetSymbols.swift",
+      "line": 162,
+      "symbol": "DeveloperToolsSupport.ImageResource.init(thinnableName:bundle:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Harsha.Krishnappa/Library/Developer/Xcode/DerivedData/BookSearch-brnrlmgfcsivstazfgpjuwbhguia/Build/Intermediates.noindex/BookSearch.build/Debug-iphoneos/BookSearch.build/DerivedSources/GeneratedAssetSymbols.swift",
+      "line": 187,
+      "symbol": "UIKit.UIImage.init(thinnableResource:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    }
+  ],
+  "source_directory": "/Users/Harsha.Krishnappa/Documents/GitHub/BookSearch/BookSearch"
+}

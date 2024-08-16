@@ -1,0 +1,20 @@
+{
+  "source": "/Users/Harsha.Krishnappa/Documents/GitHub/BookSearch/BookSearch/BookSearch/View/FilterView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Search Saved Books using author or title.."
+      },
+      {
+        "comment": "",
+        "key": "Filter Books"
+      },
+      {
+        "comment": "",
+        "key": "Close"
+      }
+    ]
+  },
+  "version": 1
+}

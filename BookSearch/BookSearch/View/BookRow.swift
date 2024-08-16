@@ -7,7 +7,16 @@
 
 import SwiftUI
 
+/// `BookRow` is a view used to display a row in a list, representing a book saved in `BookEntity`.
+/// This view is designed to present the book's cover image, title, and author name in a list format.
+///
+/// - Parameters:
+///     - book: The `BookEntity` instance representing the book to be displayed. It contains the book's cover image,
+///       title, and author name.
+/// - Usage
+///     Use `BookRow` to present individual book entries in a list.
 struct BookRow: View {
+    /// This property holds the details of the book, including the cover image, title, and author name.
     var book : BookEntity
     var body: some View {
         HStack {
@@ -22,7 +31,6 @@ struct BookRow: View {
                     .font(.headline)
                     .lineLimit(3)
                 Divider()
-                
                 Text("\n Authors : \(String(describing: book.authors ?? "Unknown"))")
                     .font(.caption)
             }
@@ -47,5 +55,4 @@ struct BookRow: View {
                 .stroke(Color.gray.opacity(0.3), lineWidth: 1)
         )
     }
-    
 }

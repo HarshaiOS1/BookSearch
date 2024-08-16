@@ -1,0 +1,723 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>BooksViewModel Class Reference</title>
+    <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
+    <meta charset='utf-8'>
+    <script src="../js/jquery.min.js" defer></script>
+    <script src="../js/jazzy.js" defer></script>
+    
+    <script src="../js/lunr.min.js" defer></script>
+    <script src="../js/typeahead.jquery.js" defer></script>
+    <script src="../js/jazzy.search.js" defer></script>
+  </head>
+  <body>
+    <a name="//apple_ref/swift/Class/BooksViewModel" class="dashAnchor"></a>
+    <a title="BooksViewModel Class Reference"></a>
+    <header>
+      <div class="content-wrapper">
+        <p><a href="../index.html">BookSearch Docs</a> (56% documented)</p>
+        <div class="header-right">
+          <form role="search" action="../search.json">
+            <input type="text" placeholder="Search documentation" data-typeahead>
+          </form>
+        </div>
+      </div>
+    </header>
+    <div class="content-wrapper">
+      <p id="breadcrumbs">
+        <a href="../index.html">BookSearch</a>
+        <img id="carat" src="../img/carat.png" alt=""/>
+        <a href="../Classes.html">Classes</a>
+        <img id="carat" src="../img/carat.png" alt=""/>
+        BooksViewModel Class Reference
+      </p>
+    </div>
+    <div class="content-wrapper">
+      <nav class="sidebar">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a href="../Classes.html">Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Classes/AsyncImageLoader.html">AsyncImageLoader</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/BookEntity.html">BookEntity</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/BooksViewModel.html">BooksViewModel</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/CoreDataManager.html">CoreDataManager</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ImageCache.html">ImageCache</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/NetworkMonitor.html">NetworkMonitor</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes.html#/s:10BookSearch19ResourceBundleClass33_C36083FDE26F883F90AA3071FEE28672LLC">ResourceBundleClass</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Global%20Variables.html">Global Variables</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Global%20Variables.html#/resourceBundle">resourceBundle</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Global%20Variables.html#/s:10BookSearch14resourceBundle33_C36083FDE26F883F90AA3071FEE28672LLSo8NSBundleCvp">resourceBundle</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Extensions.html">Extensions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Extensions/DeveloperToolsSupport.html">DeveloperToolsSupport</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/DeveloperToolsSupport/ColorResource.html">– ColorResource</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/DeveloperToolsSupport/ImageResource.html">– ImageResource</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/SwiftUI.html">SwiftUI</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/SwiftUI/Color.html">– Color</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/SwiftUI/ShapeStyle.html">– ShapeStyle</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UIKit.UIColor.html">UIKit.UIColor</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UIKit.UIImage.html">UIKit.UIImage</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Protocols.html">Protocols</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Protocols/GoogleBookServices.html">GoogleBookServices</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Structs.html">Structures</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Structs/Book.html">Book</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/Book/CodingKeys.html">– CodingKeys</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/BookDetailView.html">BookDetailView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/BookRow.html">BookRow</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/BookSearchApp.html">BookSearchApp</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/BooksList.html">BooksList</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/Constants.html">Constants</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/ContentView.html">ContentView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/CustomImageView.html">CustomImageView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/FavoriteButton.html">FavoriteButton</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/FetchBookAPI.html">FetchBookAPI</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/FilterView.html">FilterView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/ImageLinks.html">ImageLinks</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/LottieView.html">LottieView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/LottieView/Coordinator.html">– Coordinator</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/Services.html">Services</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/VolumeInfo.html">VolumeInfo</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+        <section>
+          <section class="section">
+            <h1>BooksViewModel</h1>
+              <div class="declaration">
+                <div class="language">
+                  
+                  <pre class="highlight swift"><code><span class="kd">class</span> <span class="kt">BooksViewModel</span> <span class="p">:</span> <span class="kt">ObservableObject</span></code></pre>
+
+                </div>
+              </div>
+            <p>A view model for managing and presenting book data.</p>
+
+<p>The <code>BooksViewModel</code> class is responsible</p>
+
+<ol>
+<li>For fetching books from an external service (Google Books API),</li>
+<li>Saving books to Core Data, and managing the application&rsquo;s state related to books.</li>
+<li>It handles network connectivity, offline data loading, and error reporting.</li>
+<li>It conforms to the <code>ObservableObject</code> protocol, allowing SwiftUI views to bind to its published properties and react to changes.</li>
+</ol>
+
+          </section>
+          <section class="section task-group-section">
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10BookSearch14BooksViewModelC06googleA8Services33_EFD723E93F2A49FB865BB65CD1965E5CLLAA06GoogleaG0_pvp"></a>
+                    <a name="//apple_ref/swift/Property/googleBookServices" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10BookSearch14BooksViewModelC06googleA8Services33_EFD723E93F2A49FB865BB65CD1965E5CLLAA06GoogleaG0_pvp">googleBookServices</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">private</span> <span class="k">let</span> <span class="nv">googleBookServices</span><span class="p">:</span> <span class="kt"><a href="../Protocols/GoogleBookServices.html">GoogleBookServices</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10BookSearch14BooksViewModelC7context33_EFD723E93F2A49FB865BB65CD1965E5CLLSo22NSManagedObjectContextCvp"></a>
+                    <a name="//apple_ref/swift/Property/context" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10BookSearch14BooksViewModelC7context33_EFD723E93F2A49FB865BB65CD1965E5CLLSo22NSManagedObjectContextCvp">context</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">private</span> <span class="k">let</span> <span class="nv">context</span><span class="p">:</span> <span class="kt">NSManagedObjectContext</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10BookSearch14BooksViewModelC12cancellables33_EFD723E93F2A49FB865BB65CD1965E5CLLShy7Combine14AnyCancellableCGvp"></a>
+                    <a name="//apple_ref/swift/Property/cancellables" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10BookSearch14BooksViewModelC12cancellables33_EFD723E93F2A49FB865BB65CD1965E5CLLShy7Combine14AnyCancellableCGvp">cancellables</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">private</span> <span class="k">var</span> <span class="nv">cancellables</span><span class="p">:</span> <span class="kt">Set</span><span class="o">&lt;</span><span class="kt">AnyCancellable</span><span class="o">&gt;</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10BookSearch14BooksViewModelC5booksSayAA0A6EntityCGvp"></a>
+                    <a name="//apple_ref/swift/Property/books" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10BookSearch14BooksViewModelC5booksSayAA0A6EntityCGvp">books</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The list of books currently held in Core Data.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@Published</span>
+<span class="k">var</span> <span class="nv">books</span><span class="p">:</span> <span class="p">[</span><span class="kt"><a href="../Classes/BookEntity.html">BookEntity</a></span><span class="p">]</span> <span class="p">{</span> <span class="k">get</span> <span class="k">set</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10BookSearch14BooksViewModelC11isConnectedSbvp"></a>
+                    <a name="//apple_ref/swift/Property/isConnected" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10BookSearch14BooksViewModelC11isConnectedSbvp">isConnected</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>A Boolean value indicating whether the device is currently connected to the network.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@MainActor</span>
+<span class="kd">@Published</span>
+<span class="k">var</span> <span class="nv">isConnected</span><span class="p">:</span> <span class="kt">Bool</span> <span class="p">{</span> <span class="k">get</span> <span class="k">set</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10BookSearch14BooksViewModelC13isLoadOfflineSbvp"></a>
+                    <a name="//apple_ref/swift/Property/isLoadOffline" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10BookSearch14BooksViewModelC13isLoadOfflineSbvp">isLoadOffline</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>A Boolean value indicating whether the application is currently loading offline data.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@MainActor</span>
+<span class="kd">@Published</span>
+<span class="k">var</span> <span class="nv">isLoadOffline</span><span class="p">:</span> <span class="kt">Bool</span> <span class="p">{</span> <span class="k">get</span> <span class="k">set</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10BookSearch14BooksViewModelC12errorMessageSSvp"></a>
+                    <a name="//apple_ref/swift/Property/errorMessage" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10BookSearch14BooksViewModelC12errorMessageSSvp">errorMessage</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>A string containing error messages related to book fetching or saving operations.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@MainActor</span>
+<span class="kd">@Published</span>
+<span class="k">var</span> <span class="nv">errorMessage</span><span class="p">:</span> <span class="kt">String</span> <span class="p">{</span> <span class="k">get</span> <span class="k">set</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10BookSearch14BooksViewModelC06googleA8ServicesAcA06GoogleaG0_p_tcfc"></a>
+                    <a name="//apple_ref/swift/Method/init(googleBookServices:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10BookSearch14BooksViewModelC06googleA8ServicesAcA06GoogleaG0_p_tcfc">init(googleBookServices:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Initializes a new instance of <code>BooksViewModel</code> with the given Google Books service.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="nf">init</span><span class="p">(</span><span class="nv">googleBookServices</span><span class="p">:</span> <span class="kt"><a href="../Protocols/GoogleBookServices.html">GoogleBookServices</a></span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>googleBookServices</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>An instance of <code><a href="../Protocols/GoogleBookServices.html">GoogleBookServices</a></code> used to fetch books from the Google Books API.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10BookSearch14BooksViewModelC012fetchAndSaveC012searchStringySS_tF"></a>
+                    <a name="//apple_ref/swift/Method/fetchAndSaveBooks(searchString:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10BookSearch14BooksViewModelC012fetchAndSaveC012searchStringySS_tF">fetchAndSaveBooks(searchString:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Fetches books from the Google Books API and saves them to Core Data.</p>
+
+<p>This function takes a search string provided by the user, constructs a URL based on the
+search term, and fetches a list of books from the Google Books API. Once the data is
+received, the books are saved to the local Core Data store for offline access.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">fetchAndSaveBooks</span><span class="p">(</span><span class="nv">searchString</span><span class="p">:</span> <span class="kt">String</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>searchString</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The user&rsquo;s search query string to fetch books from the Google Books API.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10BookSearch14BooksViewModelC08filteredC010searchTextSayAA0A6EntityCGSS_tF"></a>
+                    <a name="//apple_ref/swift/Method/filteredBooks(searchText:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10BookSearch14BooksViewModelC08filteredC010searchTextSayAA0A6EntityCGSS_tF">filteredBooks(searchText:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Filters the list of books based on a search query.</p>
+
+<p>This function takes a search string provided by the user,  Filters [BookEntity] to get Books who&rsquo;s authers or title matches with search string</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">filteredBooks</span><span class="p">(</span><span class="nv">searchText</span><span class="p">:</span> <span class="kt">String</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="p">[</span><span class="kt"><a href="../Classes/BookEntity.html">BookEntity</a></span><span class="p">]</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>searchText</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The user&rsquo;s search query string to filter books list</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>[BookEntity] array of filtered books</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Coredata"></a>
+                <a name="//apple_ref/swift/Section/Coredata" class="dashAnchor"></a>
+                <div class="section-name-container">
+                  <a class="section-name-link" href="#/Coredata"></a>
+                  <h3 class="section-name"><span>Coredata</span>
+</h3>
+                </div>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10BookSearch14BooksViewModelC04saveC10ToCoreData33_EFD723E93F2A49FB865BB65CD1965E5CLLyySayAA0A0VGF"></a>
+                    <a name="//apple_ref/swift/Method/saveBooksToCoreData(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10BookSearch14BooksViewModelC04saveC10ToCoreData33_EFD723E93F2A49FB865BB65CD1965E5CLLyySayAA0A0VGF">saveBooksToCoreData(_:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Saves books to coredata</p>
+
+<p>This function Saves books from api response to coredata after mapping model values into entity</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">private</span> <span class="kd">func</span> <span class="nf">saveBooksToCoreData</span><span class="p">(</span><span class="n">_</span> <span class="nv">books</span><span class="p">:</span> <span class="p">[</span><span class="kt"><a href="../Structs/Book.html">Book</a></span><span class="p">])</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>book</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The <code>[Book]</code> whose favorite status will be updated.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>Nil</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10BookSearch14BooksViewModelC05fetchC12FromCoreDatayyF"></a>
+                    <a name="//apple_ref/swift/Method/fetchBooksFromCoreData()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10BookSearch14BooksViewModelC05fetchC12FromCoreDatayyF">fetchBooksFromCoreData()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Fetch books from coredata</p>
+
+<p>This function retrieves the books from Core Data in reverse chronological order based on the timestamp and
+updates the <code><a href="../Classes/BooksViewModel.html#/s:10BookSearch14BooksViewModelC5booksSayAA0A6EntityCGvp">books</a></code> array, which drives the UI.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">fetchBooksFromCoreData</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>book</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Nil</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>Nil</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10BookSearch14BooksViewModelC06updateA14FavoriteStatusyyAA0A6EntityCF"></a>
+                    <a name="//apple_ref/swift/Method/updateBookFavoriteStatus(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10BookSearch14BooksViewModelC06updateA14FavoriteStatusyyAA0A6EntityCF">updateBookFavoriteStatus(_:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Updates the favorite status of a specific book.</p>
+
+<p>This function toggles the favorite status of a book in the Core Data store and persists the change.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">updateBookFavoriteStatus</span><span class="p">(</span><span class="n">_</span> <span class="nv">book</span><span class="p">:</span> <span class="kt"><a href="../Classes/BookEntity.html">BookEntity</a></span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>book</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The <code><a href="../Classes/BookEntity.html">BookEntity</a></code> whose favorite status will be updated.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>Nil</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </section>
+        <section id="footer">
+          <p>&copy; 2024 <a class="link" href="" target="_blank" rel="external noopener"></a>. All rights reserved. (Last updated: 2024-08-16)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external noopener">jazzy ♪♫ v0.15.1</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external noopener">Realm</a> project.</p>
+        </section>
+      </article>
+    </div>
+  </body>
+</html>

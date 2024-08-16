@@ -1,0 +1,16 @@
+{
+  "source": "/Users/Harsha.Krishnappa/Documents/GitHub/BookSearch/BookSearch/BookSearch/View/BookDetailView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Book Details"
+      },
+      {
+        "comment": "",
+        "key": "\n Authors : %@"
+      }
+    ]
+  },
+  "version": 1
+}

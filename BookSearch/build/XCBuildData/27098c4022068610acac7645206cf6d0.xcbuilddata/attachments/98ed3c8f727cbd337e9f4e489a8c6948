@@ -1,0 +1,15 @@
+{
+  "" : {
+    "const-values" : "/Users/Harsha.Krishnappa/Library/Developer/Xcode/DerivedData/BookSearch-brnrlmgfcsivstazfgpjuwbhguia/SourcePackages/checkouts/lottie-spm/build/Lottie.build/Release-iphoneos/_LottieStub.build/Objects-normal/arm64/_LottieStub-master.swiftconstvalues",
+    "dependencies" : "/Users/Harsha.Krishnappa/Library/Developer/Xcode/DerivedData/BookSearch-brnrlmgfcsivstazfgpjuwbhguia/SourcePackages/checkouts/lottie-spm/build/Lottie.build/Release-iphoneos/_LottieStub.build/Objects-normal/arm64/_LottieStub-master.d",
+    "diagnostics" : "/Users/Harsha.Krishnappa/Library/Developer/Xcode/DerivedData/BookSearch-brnrlmgfcsivstazfgpjuwbhguia/SourcePackages/checkouts/lottie-spm/build/Lottie.build/Release-iphoneos/_LottieStub.build/Objects-normal/arm64/_LottieStub-master.dia",
+    "emit-module-dependencies" : "/Users/Harsha.Krishnappa/Library/Developer/Xcode/DerivedData/BookSearch-brnrlmgfcsivstazfgpjuwbhguia/SourcePackages/checkouts/lottie-spm/build/Lottie.build/Release-iphoneos/_LottieStub.build/Objects-normal/arm64/_LottieStub-master-emit-module.d",
+    "emit-module-diagnostics" : "/Users/Harsha.Krishnappa/Library/Developer/Xcode/DerivedData/BookSearch-brnrlmgfcsivstazfgpjuwbhguia/SourcePackages/checkouts/lottie-spm/build/Lottie.build/Release-iphoneos/_LottieStub.build/Objects-normal/arm64/_LottieStub-master-emit-module.dia",
+    "swift-dependencies" : "/Users/Harsha.Krishnappa/Library/Developer/Xcode/DerivedData/BookSearch-brnrlmgfcsivstazfgpjuwbhguia/SourcePackages/checkouts/lottie-spm/build/Lottie.build/Release-iphoneos/_LottieStub.build/Objects-normal/arm64/_LottieStub-master.swiftdeps"
+  },
+  "/Users/Harsha.Krishnappa/Library/Developer/Xcode/DerivedData/BookSearch-brnrlmgfcsivstazfgpjuwbhguia/SourcePackages/checkouts/lottie-spm/Sources/_LottieStub/Stub.swift" : {
+    "index-unit-output-path" : "/Lottie.build/Release-iphoneos/_LottieStub.build/Objects-normal/arm64/Stub.o",
+    "llvm-bc" : "/Users/Harsha.Krishnappa/Library/Developer/Xcode/DerivedData/BookSearch-brnrlmgfcsivstazfgpjuwbhguia/SourcePackages/checkouts/lottie-spm/build/Lottie.build/Release-iphoneos/_LottieStub.build/Objects-normal/arm64/Stub.bc",
+    "object" : "/Users/Harsha.Krishnappa/Library/Developer/Xcode/DerivedData/BookSearch-brnrlmgfcsivstazfgpjuwbhguia/SourcePackages/checkouts/lottie-spm/build/Lottie.build/Release-iphoneos/_LottieStub.build/Objects-normal/arm64/Stub.o"
+  }
+}

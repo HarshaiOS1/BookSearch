@@ -1,0 +1,27 @@
+version: "Apple Swift version 5.10 (swiftlang-5.10.0.13 clang-1500.3.9.4)"
+options: "0a1cb922ce3cc96dd339b2cedc0af937475cd21fe4ebda812fa6d967a0311b52"
+build_start_time: [1723800938, 181616000]
+build_end_time: [1723800939, 502479000]
+inputs:
+  "/Users/Harsha.Krishnappa/Documents/GitHub/BookSearch/BookSearch/BookSearch/BookSearchApp.swift": [1723667371, 620691440]
+  "/Users/Harsha.Krishnappa/Documents/GitHub/BookSearch/BookSearch/BookSearch/Model/Books.swift": [1723736474, 394370027]
+  "/Users/Harsha.Krishnappa/Documents/GitHub/BookSearch/BookSearch/BookSearch/Utils /Constants.swift": [1723665363, 91743010]
+  "/Users/Harsha.Krishnappa/Documents/GitHub/BookSearch/BookSearch/BookSearch/Utils /Coredata/CoreDataManager.swift": [1723797351, 777731582]
+  "/Users/Harsha.Krishnappa/Documents/GitHub/BookSearch/BookSearch/BookSearch/Utils /ImageCache.swift": [1723723752, 83154590]
+  "/Users/Harsha.Krishnappa/Documents/GitHub/BookSearch/BookSearch/BookSearch/Utils /NetworkMonitor.swift": [1723797351, 768512663]
+  "/Users/Harsha.Krishnappa/Documents/GitHub/BookSearch/BookSearch/BookSearch/View/BookDetailView.swift": [1723800054, 26619470]
+  "/Users/Harsha.Krishnappa/Documents/GitHub/BookSearch/BookSearch/BookSearch/View/BookRow.swift": [1723800042, 80651933]
+  "/Users/Harsha.Krishnappa/Documents/GitHub/BookSearch/BookSearch/BookSearch/View/ContentView.swift": [1723796347, 785900021]
+  "/Users/Harsha.Krishnappa/Documents/GitHub/BookSearch/BookSearch/BookSearch/View/CustomViews/CustomImageView.swift": [1723723752, 64942728]
+  "/Users/Harsha.Krishnappa/Documents/GitHub/BookSearch/BookSearch/BookSearch/View/CustomViews/FavoriteButton.swift": [1723754557, 259064777]
+  "/Users/Harsha.Krishnappa/Documents/GitHub/BookSearch/BookSearch/BookSearch/View/CustomViews/LottieView.swift": [1723758241, 686260536]
+  "/Users/Harsha.Krishnappa/Documents/GitHub/BookSearch/BookSearch/BookSearch/View/FilterView.swift": [1723796297, 348684462]
+  "/Users/Harsha.Krishnappa/Documents/GitHub/BookSearch/BookSearch/BookSearch/ViewModel/BooksViewModel.swift": [1723800042, 122393124]
+  ? "/Users/Harsha.Krishnappa/Documents/GitHub/BookSearch/BookSearch/build/BookSearch.build/Release-iphoneos/BookSearch.build/DerivedSources/CoreDataGenerated/BooksModel/BookEntity+CoreDataClass.swift"
+  : [1723800938, 168992345]
+  ? "/Users/Harsha.Krishnappa/Documents/GitHub/BookSearch/BookSearch/build/BookSearch.build/Release-iphoneos/BookSearch.build/DerivedSources/CoreDataGenerated/BooksModel/BookEntity+CoreDataProperties.swift"
+  : [1723800938, 170402018]
+  ? "/Users/Harsha.Krishnappa/Documents/GitHub/BookSearch/BookSearch/build/BookSearch.build/Release-iphoneos/BookSearch.build/DerivedSources/CoreDataGenerated/BooksModel/BooksModel+CoreDataModel.swift"
+  : [1723800938, 163898389]
+  ? "/Users/Harsha.Krishnappa/Documents/GitHub/BookSearch/BookSearch/build/BookSearch.build/Release-iphoneos/BookSearch.build/DerivedSources/GeneratedAssetSymbols.swift"
+  : [1723800937, 548519782]
