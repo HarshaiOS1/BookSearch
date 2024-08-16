@@ -33,7 +33,7 @@ struct BookDetailView: View {
                     FavoriteButton(isSet: $book.isFavorite, onToggle: {
                         toggleFavorite()
                     })
-                    .frame(width: 15, height: 15)
+                    .frame(width: 25, height: 25)
                 }
                 Divider()
                 Text("\n Authors : \(book.authors ?? "")")

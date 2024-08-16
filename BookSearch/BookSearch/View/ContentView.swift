@@ -36,7 +36,7 @@ struct ContentView: View {
     
     var body: some View {
         NavigationView {
-            content
+            contentView
                 .navigationBarTitle("Books", displayMode: .automatic)
                 .toolbar {
                     ToolbarItem(placement: .automatic) {
@@ -62,7 +62,7 @@ struct ContentView: View {
     }
     
     ///`content View`: A Group view that conditionally displays either the bookListView or noInternetView.
-    private var content: some View {
+    private var contentView: some View {
         Group {
             if networkMonitor.isConnected || viewModel.isLoadOffline {
                 bookListView
@@ -75,6 +75,10 @@ struct ContentView: View {
     ///`bookListView`: Handles the display of the book list on search and  filtering for fav books
     private var bookListView: some View {
         List {
+            if !networkMonitor.isConnected {
+                Text("No Internet, Showing offline Data")
+                    .foregroundStyle(Color.red)
+            }
             Toggle(isOn: $showFavoritesOnly) {
                 Text("Show Only Favorite Books")
             }
@@ -118,8 +122,8 @@ struct ContentView: View {
     ///`handleSearchSubmit` handles the logic for  search submissions based on network connectivity.
     private func handleSearchSubmit() {
         if !networkMonitor.isConnected {
-            viewModel.fetchBooksFromCoreData()
             viewModel.isLoadOffline = false
+            viewModel.fetchBooksFromCoreData()
         } else {
             if searchText.count > 2 {
                 viewModel.fetchAndSaveBooks(searchString: searchText)
