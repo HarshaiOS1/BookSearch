@@ -18,6 +18,8 @@ import Combine
 class NetworkMonitor: ObservableObject {
     private var monitor: NWPathMonitor
     private var cancellable: AnyCancellable?
+    private var queue: DispatchQueue
+    
     @Published var isConnected: Bool = true
     
     /// Initializes the `NetworkMonitor` and starts monitoring network connectivity.
@@ -25,12 +27,17 @@ class NetworkMonitor: ObservableObject {
     /// on the main thread for UI updates.
     init() {
         monitor = NWPathMonitor()
+        queue = DispatchQueue(label: "NetworkMonitor")
         monitor.pathUpdateHandler = { [weak self] path in
             DispatchQueue.main.async {
                 self?.isConnected = path.status == .satisfied
             }
         }
-        let queue = DispatchQueue(label: "NetworkMonitor")
         monitor.start(queue: queue)
+    }
+    
+    /// Stops the network monitor when the object is deallocated.
+    deinit {
+        monitor.cancel()
     }
 }

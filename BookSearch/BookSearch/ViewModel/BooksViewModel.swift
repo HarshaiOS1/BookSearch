@@ -157,6 +157,7 @@ protocol GoogleBookServices {
 }
 
 struct FetchBookAPI: GoogleBookServices {
+    /// Fetches books from the Google Books API implementaion of protocol
     func fetchBooks(url: String) -> AnyPublisher<BooksList, Error> {
         guard let url = URL(string: url) else {
             fatalError("Invalid URL")

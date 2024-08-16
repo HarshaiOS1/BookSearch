@@ -1,0 +1,37 @@
+name: iOS CI
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  build:
+    name: Build and Test
+    runs-on: macos-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v3
+
+    - name: Set up Xcode environment
+      run: sudo xcode-select -switch /Applications/Xcode.app/Contents/Developer
+
+    - name: Install dependencies
+      run: |
+        sudo gem install cocoapods
+        pod install
+      working-directory: ./BookSearch
+
+    - name: Build the app
+      run: xcodebuild -workspace YourApp.xcworkspace -scheme BookSearch -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPhone 14,OS=16.4' clean build
+      env:
+        CI: true
+
+    - name: Run tests
+      run: xcodebuild test -workspace YourApp.xcworkspace -scheme YourSchemeName -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPhone 14,OS=16.4'
+      env:
+        CI: true

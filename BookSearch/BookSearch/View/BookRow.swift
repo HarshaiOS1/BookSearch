@@ -17,7 +17,7 @@ import SwiftUI
 ///     Use `BookRow` to present individual book entries in a list.
 struct BookRow: View {
     /// This property holds the details of the book, including the cover image, title, and author name.
-    var book : BookEntity
+    @ObservedObject var book : BookEntity
     var body: some View {
         HStack {
             if let url = book.thumbnail {
@@ -40,10 +40,6 @@ struct BookRow: View {
             if book.isFavorite {
                 Image(systemName: "star.fill")
                     .foregroundStyle(.yellow)
-                    .frame(width: 30, height: 30)
-            } else {
-                Image(systemName: "star")
-                    .foregroundStyle(.gray)
                     .frame(width: 30, height: 30)
             }
         }

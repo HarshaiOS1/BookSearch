@@ -17,7 +17,7 @@
     <a title="BookDetailView Structure Reference"></a>
     <header>
       <div class="content-wrapper">
-        <p><a href="../index.html">BookSearch Docs</a> (56% documented)</p>
+        <p><a href="../index.html">BookSearch Docs</a> (58% documented)</p>
         <div class="header-right">
           <form role="search" action="../search.json">
             <input type="text" placeholder="Search documentation" data-typeahead>
@@ -180,7 +180,15 @@
 
                 </div>
               </div>
-            <p>Undocumented</p>
+            <p><code>BookDetailView</code> presents detailed information about a specific book.</p>
+
+<p>This view displays the book&rsquo;s thumbnail, title, authors, and description. It also includes a favorite button to toggle the book&rsquo;s favorite status.</p>
+<div class="aside aside-note">
+    <p class="aside-title">Note</p>
+    The <code>book</code> property is a <code><a href="../Classes/BookEntity.html">BookEntity</a></code> that represents the book to be displayed.
+The <code>viewModel</code> property is used to interact with the underlying data model for updating the book&rsquo;s favorite status.
+
+</div>
 
           </section>
           <section class="section task-group-section">
@@ -199,7 +207,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>The view model that provides data and functionality related to books.</p>
 
                       </div>
                       <div class="declaration">
@@ -227,7 +235,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>The book entity whose details are to be displayed.</p>
 
                       </div>
                       <div class="declaration">
@@ -281,7 +289,10 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>Toggles the favorite status of the book and updates the view model.</p>
+
+<p>This function changes the <code>isFavorite</code> property of the book and calls the <code>updateBookFavoriteStatus</code> method on the view model
+to persist the change.</p>
 
                       </div>
                       <div class="declaration">
