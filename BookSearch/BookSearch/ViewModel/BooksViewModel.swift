@@ -77,6 +77,11 @@ class BooksViewModel: ObservableObject {
              book.authors?.localizedCaseInsensitiveContains(searchText) == true)
         }
     }
+    
+    /// Removes all data in coredata entity
+    func clearAllBooksFromCoreData() {
+        
+    }
 }
 
 //MARK: Coredata
@@ -87,7 +92,7 @@ extension BooksViewModel {
     ///
     /// - Parameter book: The `[Book]` whose favorite status will be updated.
     /// - Returns: Nil
-    private func saveBooksToCoreData(_ books: [Book]) {
+    func saveBooksToCoreData(_ books: [Book]) {
         books.forEach { book in
             let bookEntity = BookEntity(context: context)
             bookEntity.uniqueId = Int32(book.id)
