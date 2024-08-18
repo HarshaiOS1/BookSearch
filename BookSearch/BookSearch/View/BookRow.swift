@@ -18,6 +18,7 @@ import SwiftUI
 struct BookRow: View {
     /// This property holds the details of the book, including the cover image, title, and author name.
     @ObservedObject var book : BookEntity
+    @Environment(\.colorScheme) var colorScheme
     var body: some View {
         HStack {
             if let url = book.thumbnail {
@@ -44,7 +45,7 @@ struct BookRow: View {
             }
         }
         .frame(height: 150)
-        .background(Color.white)
+        .background(colorScheme == .dark ? Color.black : Color.white)
         .clipShape(RoundedRectangle(cornerRadius: 10))
         .overlay(
             RoundedRectangle(cornerRadius: 10)

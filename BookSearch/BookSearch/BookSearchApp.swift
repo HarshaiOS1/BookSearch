@@ -15,6 +15,7 @@ struct BookSearchApp: App {
         WindowGroup {
             ContentView(viewModel: BooksViewModel(googleBookServices: FetchBookAPI()))
                 .environment(\.managedObjectContext, coredataManager.persistentContainer.viewContext)
+                .preferredColorScheme(.none)
         }
     }
 }
