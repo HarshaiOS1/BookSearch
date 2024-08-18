@@ -77,6 +77,12 @@ class BooksViewModel: ObservableObject {
              book.authors?.localizedCaseInsensitiveContains(searchText) == true)
         }
     }
+    
+    /// Removes all data in coredata entity
+    func clearAllBooksFromCoreData() {
+        CoreDataManager.shared.deleteAllBooks()
+        self.fetchBooksFromCoreData()
+    }
 }
 
 //MARK: Coredata
@@ -87,7 +93,7 @@ extension BooksViewModel {
     ///
     /// - Parameter book: The `[Book]` whose favorite status will be updated.
     /// - Returns: Nil
-    private func saveBooksToCoreData(_ books: [Book]) {
+    func saveBooksToCoreData(_ books: [Book]) {
         books.forEach { book in
             let bookEntity = BookEntity(context: context)
             bookEntity.uniqueId = Int32(book.id)
@@ -111,7 +117,7 @@ extension BooksViewModel {
     /// Fetch books from coredata
     ///
     /// This function retrieves the books from Core Data in reverse chronological order based on the timestamp and
-    /// updates the `books` array, which drives the UI.
+    /// updates the `books` array in `BooksViewModel`', which drives the UI.
     ///
     /// - Parameter book: Nil
     /// - Returns: Nil

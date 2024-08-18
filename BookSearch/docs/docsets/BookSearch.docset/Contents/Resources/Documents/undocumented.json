@@ -16,119 +16,91 @@
     },
     {
       "file": "/Users/Harsha.Krishnappa/Documents/GitHub/BookSearch/BookSearch/BookSearch/Model/Books.swift",
-      "line": 11,
-      "symbol": "BooksList",
-      "symbol_kind": "source.lang.swift.decl.struct",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/Harsha.Krishnappa/Documents/GitHub/BookSearch/BookSearch/BookSearch/Model/Books.swift",
-      "line": 12,
+      "line": 13,
       "symbol": "BooksList.items",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/Harsha.Krishnappa/Documents/GitHub/BookSearch/BookSearch/BookSearch/Model/Books.swift",
-      "line": 15,
-      "symbol": "Book",
-      "symbol_kind": "source.lang.swift.decl.struct",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/Harsha.Krishnappa/Documents/GitHub/BookSearch/BookSearch/BookSearch/Model/Books.swift",
-      "line": 17,
+      "line": 21,
       "symbol": "Book.volumeInfo",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/Harsha.Krishnappa/Documents/GitHub/BookSearch/BookSearch/BookSearch/Model/Books.swift",
-      "line": 18,
+      "line": 22,
       "symbol": "Book.isFavorite",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/Harsha.Krishnappa/Documents/GitHub/BookSearch/BookSearch/BookSearch/Model/Books.swift",
-      "line": 19,
+      "line": 23,
       "symbol": "Book.CodingKeys",
       "symbol_kind": "source.lang.swift.decl.enum",
       "warning": "undocumented"
     },
     {
       "file": "/Users/Harsha.Krishnappa/Documents/GitHub/BookSearch/BookSearch/BookSearch/Model/Books.swift",
-      "line": 20,
+      "line": 24,
       "symbol": "Book.CodingKeys.volumeInfo",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
       "file": "/Users/Harsha.Krishnappa/Documents/GitHub/BookSearch/BookSearch/BookSearch/Model/Books.swift",
-      "line": 25,
-      "symbol": "VolumeInfo",
-      "symbol_kind": "source.lang.swift.decl.struct",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/Harsha.Krishnappa/Documents/GitHub/BookSearch/BookSearch/BookSearch/Model/Books.swift",
-      "line": 26,
+      "line": 34,
       "symbol": "VolumeInfo.title",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/Harsha.Krishnappa/Documents/GitHub/BookSearch/BookSearch/BookSearch/Model/Books.swift",
-      "line": 27,
+      "line": 35,
       "symbol": "VolumeInfo.authors",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/Harsha.Krishnappa/Documents/GitHub/BookSearch/BookSearch/BookSearch/Model/Books.swift",
-      "line": 28,
+      "line": 36,
       "symbol": "VolumeInfo.description",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/Harsha.Krishnappa/Documents/GitHub/BookSearch/BookSearch/BookSearch/Model/Books.swift",
-      "line": 28,
+      "line": 36,
       "symbol": "VolumeInfo.publishedDate",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/Harsha.Krishnappa/Documents/GitHub/BookSearch/BookSearch/BookSearch/Model/Books.swift",
-      "line": 28,
+      "line": 36,
       "symbol": "VolumeInfo.publisher",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/Harsha.Krishnappa/Documents/GitHub/BookSearch/BookSearch/BookSearch/Model/Books.swift",
-      "line": 29,
+      "line": 37,
       "symbol": "VolumeInfo.imageLinks",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/Harsha.Krishnappa/Documents/GitHub/BookSearch/BookSearch/BookSearch/Model/Books.swift",
-      "line": 33,
-      "symbol": "ImageLinks",
-      "symbol_kind": "source.lang.swift.decl.struct",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/Harsha.Krishnappa/Documents/GitHub/BookSearch/BookSearch/BookSearch/Model/Books.swift",
-      "line": 34,
+      "line": 45,
       "symbol": "ImageLinks.smallThumbnail",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/Harsha.Krishnappa/Documents/GitHub/BookSearch/BookSearch/BookSearch/Model/Books.swift",
-      "line": 34,
+      "line": 45,
       "symbol": "ImageLinks.thumbnail",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
@@ -178,36 +150,15 @@
     {
       "file": "/Users/Harsha.Krishnappa/Documents/GitHub/BookSearch/BookSearch/BookSearch/Utils /NetworkMonitor.swift",
       "line": 21,
+      "symbol": "NetworkMonitor.queue",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Harsha.Krishnappa/Documents/GitHub/BookSearch/BookSearch/BookSearch/Utils /NetworkMonitor.swift",
+      "line": 23,
       "symbol": "NetworkMonitor.isConnected",
       "symbol_kind": "source.lang.swift.decl.var.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/Harsha.Krishnappa/Documents/GitHub/BookSearch/BookSearch/BookSearch/View/BookDetailView.swift",
-      "line": 10,
-      "symbol": "BookDetailView",
-      "symbol_kind": "source.lang.swift.decl.struct",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/Harsha.Krishnappa/Documents/GitHub/BookSearch/BookSearch/BookSearch/View/BookDetailView.swift",
-      "line": 11,
-      "symbol": "BookDetailView.viewModel",
-      "symbol_kind": "source.lang.swift.decl.var.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/Harsha.Krishnappa/Documents/GitHub/BookSearch/BookSearch/BookSearch/View/BookDetailView.swift",
-      "line": 12,
-      "symbol": "BookDetailView.book",
-      "symbol_kind": "source.lang.swift.decl.var.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/Harsha.Krishnappa/Documents/GitHub/BookSearch/BookSearch/BookSearch/View/BookDetailView.swift",
-      "line": 44,
-      "symbol": "BookDetailView.toggleFavorite()",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
@@ -275,7 +226,7 @@
     },
     {
       "file": "/Users/Harsha.Krishnappa/Documents/GitHub/BookSearch/BookSearch/BookSearch/ViewModel/BooksViewModel.swift",
-      "line": 159,
+      "line": 164,
       "symbol": "FetchBookAPI",
       "symbol_kind": "source.lang.swift.decl.struct",
       "warning": "undocumented"
