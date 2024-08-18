@@ -80,7 +80,8 @@ class BooksViewModel: ObservableObject {
     
     /// Removes all data in coredata entity
     func clearAllBooksFromCoreData() {
-        
+        CoreDataManager.shared.deleteAllBooks()
+        self.fetchBooksFromCoreData()
     }
 }
 
@@ -116,7 +117,7 @@ extension BooksViewModel {
     /// Fetch books from coredata
     ///
     /// This function retrieves the books from Core Data in reverse chronological order based on the timestamp and
-    /// updates the `books` array, which drives the UI.
+    /// updates the `books` array in `BooksViewModel`', which drives the UI.
     ///
     /// - Parameter book: Nil
     /// - Returns: Nil
