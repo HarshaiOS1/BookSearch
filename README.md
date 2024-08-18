@@ -36,8 +36,8 @@ Documentaion: Used Jazzy command line utility to generate detailed documentation
 
    b. Book list shows added banner `No internet, showing offline data` to indicate if the app is in offline mode
 
+  ![Uploading SimulatorScreenRecording-iPhone15Pro-2024-08-18at14.09.29-ezgif.com-resize.gif…]()
 
-    ![RecordIt-1723980809-ezgif com-video-to-gif-converter-2](https://github.com/user-attachments/assets/b7ba3834-7709-44f0-b488-9d22217a0841)
 
 7. **Dark Mode** : Application supports dark mode
 
