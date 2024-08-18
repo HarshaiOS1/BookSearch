@@ -2,6 +2,8 @@
 
 Architecure: MVVM
 Documentaion: Used Jazzy command line utility to generate detailed documentation
+Testing : Added Unit test cases for view model to test important logics.
+
 
 **Features**
 
@@ -36,7 +38,7 @@ Documentaion: Used Jazzy command line utility to generate detailed documentation
 
    b. Book list shows added banner `No internet, showing offline data` to indicate if the app is in offline mode
 
-  ![Uploading SimulatorScreenRecording-iPhone15Pro-2024-08-18at14.09.29-ezgif.com-resize.gif…]()
+  ![banner](https://github.com/user-attachments/assets/d86fca4d-4dce-4395-9683-0b4d55f0dcdf)
 
 
 7. **Dark Mode** : Application supports dark mode
