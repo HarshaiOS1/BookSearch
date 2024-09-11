@@ -1,7 +1,10 @@
 # BookSearch : SwiftUI Project
 
 Architecure: MVVM
+
 Documentaion: Used Jazzy command line utility to generate detailed documentation
+
+
 Testing : Added Unit test cases for view model to test important logics.
 
 
